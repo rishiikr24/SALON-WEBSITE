@@ -35,7 +35,7 @@ const Home = () => {
           style={{ y: heroY, opacity: heroOpacity }}
         >
           <img 
-            src="/salon_interior.png" 
+            src="/salon_interior_ai_1780819827194.png" 
             alt="Salon Interior" 
             className="w-full h-full object-cover opacity-80"
             onError={(e) => { e.target.src = 'https://images.unsplash.com/photo-1600948836101-f9ffda59d250?q=80&w=2036&auto=format&fit=crop' }}
@@ -50,8 +50,8 @@ const Home = () => {
             transition={{ delay: 0.2, duration: 1 }}
             className="text-6xl md:text-8xl font-serif text-cream mb-6 drop-shadow-lg"
           >
-            N.K Neha <br className="hidden md:block" />
-            <span className="text-5xl md:text-7xl italic text-sage/90">Beauty Salon</span>
+            Lumina <br className="hidden md:block" />
+            <span className="text-5xl md:text-7xl italic text-sage/90">Aesthetics</span>
           </motion.h1>
           <motion.p 
             initial={{ y: 20, opacity: 0 }}
@@ -99,7 +99,7 @@ const Home = () => {
             transition={{ duration: 1.2 }}
           >
             <img 
-              src="/salon_exterior.png" 
+              src="/salon_exterior_ai_1780819839559.png" 
               alt="Salon Exterior" 
               className="w-full h-full object-cover"
               onError={(e) => { e.target.src = 'https://images.unsplash.com/photo-1521590832167-7bfcfaa6362f?q=80&w=2070&auto=format&fit=crop' }}
@@ -122,8 +122,8 @@ const Home = () => {
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
-              { title: "Hair Design", img: "/salon_stylists_row_2.png", defaultImg: "https://images.unsplash.com/photo-1562322140-8baeececf3df?q=80&w=2069&auto=format&fit=crop" },
-              { title: "Bridal Makeup", img: "/salon_stylists_row_1.png", defaultImg: "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?q=80&w=2071&auto=format&fit=crop" },
+              { title: "Hair Design", img: "/salon_hair_ai_1780819852571.png", defaultImg: "https://images.unsplash.com/photo-1562322140-8baeececf3df?q=80&w=2069&auto=format&fit=crop" },
+              { title: "Bridal Makeup", img: "/salon_makeup_ai_1780819865739.png", defaultImg: "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?q=80&w=2071&auto=format&fit=crop" },
               { title: "Skin Therapy", img: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=2070&auto=format&fit=crop", defaultImg: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=2070&auto=format&fit=crop" }
             ].map((service, index) => (
               <motion.div 

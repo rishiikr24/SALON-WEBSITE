@@ -8,28 +8,28 @@ const reviews = [
     name: "AKASH",
     date: "22 Dec 2024",
     stars: 5,
-    text: "Very nice and hygienic parlour. Service is also good and pocket friendly. And Nehi di super cute by her behavior 👍👍👍👍👍"
+    text: "Very nice and hygienic parlour. Service is also good and pocket friendly. And the staff is super sweet by their behavior 👍👍👍👍👍"
   },
   {
     id: 2,
     name: "Chanda Verma",
     date: "31 Dec 2024",
     stars: 5,
-    text: "Nk Neha Beauty Salon exceeded my expectations with their exceptional beauty and personal care services. The results were excellent, leaving me feeling rejuvenated and confident. The staff was professional and attentive, ensuring a truly wonderful experience."
+    text: "Lumina Aesthetics exceeded my expectations with their exceptional beauty and personal care services. The results were excellent, leaving me feeling rejuvenated and confident. The staff was professional and attentive, ensuring a truly wonderful experience."
   },
   {
     id: 3,
     name: "Shreya Kundu",
     date: "30 Dec 2024",
     stars: 5,
-    text: "I am a very old customer of Neha Beauty Salon since 2009. I would like to thank them because of their pleasant and professional services. Their expert and accurate advices matters a lot. I heartily recommend this salon to any one who wants to come out happy, relaxed & smiling."
+    text: "I am a very old customer of Lumina Aesthetics since 2009. I would like to thank them because of their pleasant and professional services. Their expert and accurate advices matters a lot. I heartily recommend this salon to any one who wants to come out happy, relaxed & smiling."
   },
   {
     id: 4,
     name: "Raj Shree",
     date: "Recently",
     stars: 5,
-    text: "Nk Neha Beauty Salon, located opposite IDBI Bank near Mohan Market in Ashok Nagar, offers an exceptional beauty and personal care experience. With a hygienic salon environment and clean equipment, you can relax in the cosy space that exudes a luxurious vibe. Their highly skilled professionals provide top-notch services at reasonable prices, complemented by great offers. Whether you're looking for a quick touch-up or a full pampering session, this salon is the perfect choice for anyone seeking quality and comfort!"
+    text: "Lumina Aesthetics offers an exceptional beauty and personal care experience. With a hygienic salon environment and clean equipment, you can relax in the cosy space that exudes a luxurious vibe. Their highly skilled professionals provide top-notch services at reasonable prices, complemented by great offers. Whether you're looking for a quick touch-up or a full pampering session, this salon is the perfect choice for anyone seeking quality and comfort!"
   }
 ];
 

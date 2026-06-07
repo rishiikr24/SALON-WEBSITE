@@ -7,14 +7,10 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-12 mb-16">
         
         <div className="md:col-span-1 flex flex-col">
-          <h2 className="text-3xl font-serif mb-6 text-blush">N.K Neha Beauty Salon</h2>
+          <h2 className="text-3xl font-serif mb-6 text-blush">Lumina Aesthetics</h2>
           <p className="text-sm text-beige mb-6 font-light leading-relaxed">
             Redefining elegance. A premium sanctuary for the modern woman, offering top-notch hair, skin, and makeup services in a calming environment.
           </p>
-          <div className="flex space-x-4">
-            <a href="https://www.instagram.com/nk_neha_beauty_salon?igsh=MWhmbzJ4eDEwdHd0cw==" target="_blank" rel="noopener noreferrer" className="text-beige hover:text-blush transition-colors"><Instagram size={20} /></a>
-            <a href="#" className="text-beige hover:text-blush transition-colors"><Facebook size={20} /></a>
-          </div>
         </div>
 
         <div className="md:col-span-1">
@@ -24,27 +20,6 @@ const Footer = () => {
             <li><Link to="/lookbook" className="hover:text-blush transition-colors">The Lookbook</Link></li>
             <li><Link to="/services" className="hover:text-blush transition-colors">Services</Link></li>
             <li><Link to="/services" className="hover:text-blush transition-colors">Book an Appointment</Link></li>
-          </ul>
-        </div>
-
-        <div className="md:col-span-1">
-          <h3 className="text-lg font-serif mb-6 tracking-wider text-sage">Visit Us</h3>
-          <ul className="space-y-4 text-sm text-beige font-light">
-            <li className="flex items-start space-x-3">
-              <MapPin size={18} className="mt-0.5 text-blush flex-shrink-0" />
-              <span>No 5, Opposite IdBI Bank, Near Mohan Market, Ashok Nagar Road, Ashok Nagar, Ranchi-834002, Jharkhand</span>
-            </li>
-            <li className="flex items-start space-x-3">
-              <Phone size={18} className="mt-0.5 text-blush flex-shrink-0" />
-              <div className="flex flex-col">
-                <span>+91 93344 64775</span>
-                <span>+91 79031 54751</span>
-              </div>
-            </li>
-            <li className="flex items-center space-x-3">
-              <Mail size={18} className="text-blush flex-shrink-0" />
-              <span>hello@nkneha.com</span>
-            </li>
           </ul>
         </div>
 
@@ -59,7 +34,7 @@ const Footer = () => {
       </div>
 
       <div className="max-w-7xl mx-auto text-center text-xs text-beige/60 font-light pt-8 border-t border-beige/20">
-        &copy; {new Date().getFullYear()} N.K Neha Beauty Salon. All rights reserved.
+        &copy; {new Date().getFullYear()} Lumina Aesthetics. All rights reserved.
       </div>
     </footer>
   );

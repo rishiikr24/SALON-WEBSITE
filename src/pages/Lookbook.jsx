@@ -2,11 +2,11 @@ import { motion } from 'framer-motion';
 
 const Lookbook = () => {
   const images = [
-    { src: "/salon_stylists_row_1.png", fallback: "https://images.unsplash.com/photo-1522337660859-02fbefca4702?q=80&w=2069&auto=format&fit=crop", span: "md:col-span-2 md:row-span-2" },
-    { src: "/salon_stylists_row_2.png", fallback: "https://images.unsplash.com/photo-1600948836101-f9ffda59d250?q=80&w=2036&auto=format&fit=crop", span: "md:col-span-1 md:row-span-1" },
-    { src: "/salon_interior.png", fallback: "https://images.unsplash.com/photo-1560066984-138dadb4c035?q=80&w=1974&auto=format&fit=crop", span: "md:col-span-1 md:row-span-1" },
+    { src: "/salon_makeup_ai_1780819865739.png", fallback: "https://images.unsplash.com/photo-1522337660859-02fbefca4702?q=80&w=2069&auto=format&fit=crop", span: "md:col-span-2 md:row-span-2" },
+    { src: "/salon_hair_ai_1780819852571.png", fallback: "https://images.unsplash.com/photo-1600948836101-f9ffda59d250?q=80&w=2036&auto=format&fit=crop", span: "md:col-span-1 md:row-span-1" },
+    { src: "/salon_interior_ai_1780819827194.png", fallback: "https://images.unsplash.com/photo-1560066984-138dadb4c035?q=80&w=1974&auto=format&fit=crop", span: "md:col-span-1 md:row-span-1" },
     { src: "https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?q=80&w=2071&auto=format&fit=crop", fallback: "https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?q=80&w=2071&auto=format&fit=crop", span: "md:col-span-1 md:row-span-2" },
-    { src: "/salon_exterior.png", fallback: "https://images.unsplash.com/photo-1521590832167-7bfcfaa6362f?q=80&w=2070&auto=format&fit=crop", span: "md:col-span-2 md:row-span-1" },
+    { src: "/salon_exterior_ai_1780819839559.png", fallback: "https://images.unsplash.com/photo-1521590832167-7bfcfaa6362f?q=80&w=2070&auto=format&fit=crop", span: "md:col-span-2 md:row-span-1" },
     { src: "https://images.unsplash.com/photo-1516975080661-4623a9d98e7d?q=80&w=1974&auto=format&fit=crop", fallback: "https://images.unsplash.com/photo-1516975080661-4623a9d98e7d?q=80&w=1974&auto=format&fit=crop", span: "md:col-span-1 md:row-span-1" },
   ];
 

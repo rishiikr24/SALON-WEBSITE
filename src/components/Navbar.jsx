@@ -30,7 +30,7 @@ const Navbar = () => {
     >
       <div className="max-w-7xl mx-auto px-6 lg:px-12 flex justify-between items-center">
         <Link to="/" className="text-2xl font-serif font-semibold text-text-dark">
-          N.K Neha <span className="text-sage italic">Beauty Salon</span>
+          Lumina <span className="text-sage italic">Aesthetics</span>
         </Link>
 
         {/* Desktop Nav */}
